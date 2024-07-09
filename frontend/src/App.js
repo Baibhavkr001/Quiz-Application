@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import QuizCreator from './pages/QuizCreator';
 import QuizTaker from './pages/QuizTaker';
 import Signup from './components/Signup/Signup';
+import Login from './components/Login/Login';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route exact path="/" element={<Home />} />
         <Route path="/quiz-taker" element={<Signup />} />
         <Route path="/quiz-creator" element={<QuizCreator />} />
+        <Route path="/Login" element={<Login />} />
         {/* Add other routes as needed */}
       </Routes>
     </Router>
